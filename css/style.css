@@ -1,0 +1,312 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+}
+
+
+.login:hover {
+    color: orangered;
+    cursor: pointer;
+}
+.signup:hover {
+    color: #fc8019;
+    cursor: pointer;
+}
+
+.footimage:hover{
+    cursor: pointer;
+}
+.appstore :hover{
+    cursor: pointer;
+}
+.gplay:hover{
+    cursor: pointer;
+}
+.findfood-button:hover{
+    cursor: pointer;
+    background-color: #282c3f;
+}
+
+#social-icon img:hover{
+    cursor: pointer;
+}
+
+#maininfo {
+    display: flex;
+    justify-content:space-between;
+}
+#info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    margin-top: 60px;
+}
+
+.logo {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: -100px;
+}
+
+#loginsign{
+    margin-top: 7px;
+    margin-right: 15px;
+}
+
+.login{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.signup{
+    width: 83px;
+    height: 40px;
+    text-align: center;
+    margin-left: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+.caption {
+    line-height: 14px;
+}
+
+.caption h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #282c3f;
+}
+
+.caption p{
+    font-size: 24px;
+    color: #686b78;
+}
+
+.findfood form input{
+    height: 57px;
+    width: 460px;
+    color: #282c3f;
+    font-size: 18px;
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+.findfood form button{
+    background-color: #fc8019;
+    border: none;
+    height: 64px;
+    width: 135px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-left: -5px;
+}
+
+.cities {
+    margin-top: 30px;
+}
+
+.popcity {
+    font-size: 15px;
+    font-weight: 400;
+    color: #a9abb2;
+
+}
+
+.cities {
+    padding-right: 100px;
+}
+
+.cities ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 13px;
+}
+
+.cities ul li {
+    display: inline;
+    
+}
+
+.cities ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+div.cities li:nth-child(odd) a{
+    color: #686b78;
+}
+
+div.cities li:nth-child(even) a {
+    color: #93959f;
+}
+
+#sectionmain{
+    background-color: #2b1e16;
+    position: relative;
+    margin-top: -80px;
+    height: 403px;
+}
+#sectioninfo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    min-width: 1200px;
+    margin: auto;
+}
+
+.cards{
+    align-items: center;
+    text-align: center
+}
+.card-image1 img{
+    margin-top: 8px;
+}
+
+.card-image2 img{
+    margin-top: 0px;
+}
+
+.card-image3 img{
+    margin-top: 18px;
+}
+
+.card-head{
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-details{
+    margin-top: 10px;
+    color:#e0cbc1;
+    font-size: small;
+    width: 250px;
+}
+
+#articlemain{
+    display: flex;
+    justify-content:center;
+    height: 570px;
+    width: 80%;
+    margin: auto;
+}
+
+#article-left{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.art-head{
+    font-size: 40px;
+    font-weight: 600;
+    width: 300px;
+    color: #282c3f;
+}
+
+.art-details{
+    font-size: 20px;
+    font-weight: 300;
+    color: #7e808c;
+    margin-top: 20px;
+}
+
+.art-logo{
+    display: flex;
+    margin-top: 40px;
+}
+
+.gplay{
+    margin-right: 10px;
+}
+
+#article-right{
+    display: flex;
+    margin-left: 100px;
+}
+
+.art-image2{
+    align-self: flex-end;
+    margin-bottom: -4px;
+}
+
+
+#footer-main{
+    background-color: black;
+}
+
+#footer-container{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    justify-content: space-between;
+}
+
+.footcardh {
+    color: grey;
+}
+
+.footcard ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footcard ul li {
+    padding-bottom: 15px;
+}
+
+.footcard ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footimage{
+    border: #e0cbc1 solid 2px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.line{
+    width: 80%;
+    margin: auto;
+    border-top: #a9abb2 solid 1px;
+}
+
+#lower-footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    color: white;
+}
+
+.copyright{
+    margin-top: 6px;
+    font-size: 20px;
+}
+
+#social-icon img {
+    width: 24px;
+    margin-left: 20px;
+}
